@@ -42,7 +42,7 @@ let authToken;
 			dataType: "json",
 			beforeSend: function (request) {
 				//TODO: make auth token dynamic call 
-				request.setRequestHeader("Authorization", 'Bearer ');
+				request.setRequestHeader("Authorization", 'Bearer 9w920jpwRLneVxp4jn36gRzo0GMA9SrnrMeyoW_envlu6rh8y4fd1pYMoSfSs9GqKSH7KCXUFS5dnpfi4Kapug');
 			},
 			url: 'https://api.mypurecloud.com/api/v2/telephony/providers/edges/trunks/38ad39c0-eaf0-44f2-bb72-c1c1de690c54/metrics',
 			success: function (resp) {
